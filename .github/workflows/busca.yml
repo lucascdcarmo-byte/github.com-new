@@ -1,0 +1,22 @@
+name: BUSCA
+on:
+  push:
+    branches: [main]
+    paths: ['busca.py', '.github/workflows/busca.yml']
+permissions:
+  contents: write
+jobs:
+  b:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install requests
+      - run: python busca.py
+      - run: |
+          git config user.name "caos-robo"
+          git config user.email "caos-robo@users.noreply.github.com"
+          git add dados
+          git diff --cached --quiet || (git commit -m "busca sinapi" && git pull --rebase && git push)
