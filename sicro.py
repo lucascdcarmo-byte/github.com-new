@@ -1,4 +1,4 @@
-import json, os, re, sys, shutil, tempfile, unicodedata, datetime
+import json, os, re, sys, shutil, tempfile, unicodedata, datetime, time
 import requests, py7zr, openpyxl
 from bs4 import BeautifulSoup
 
@@ -122,10 +122,19 @@ def main():
         tmp = tempfile.mkdtemp()
         try:
             dest = os.path.join(tmp, 'a.7z')
-            with S.get(url, stream=True, timeout=300) as r:
-                r.raise_for_status()
-                with open(dest, 'wb') as f:
-                    shutil.copyfileobj(r.raw, f)
+            for tentativa in range(5):
+                try:
+                    with S.get(url, stream=True, timeout=300) as r:
+                        r.raise_for_status()
+                        with open(dest, 'wb') as f:
+                            for bloco in r.iter_content(1 << 20):
+                                f.write(bloco)
+                    break
+                except Exception as e:
+                    print('  tentativa', tentativa + 1, 'falhou:', e)
+                    if tentativa == 4:
+                        raise
+                    time.sleep(20 * (tentativa + 1))
             ext = os.path.join(tmp, 'x')
             if url.lower().endswith('.zip'):
                 shutil.unpack_archive(dest, ext)
