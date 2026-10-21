@@ -1,0 +1,6 @@
+tabelas com desoneracao no titulo: {'336': ('cd', 2026, 4), '337': ('sd', 2026, 4)}
+cd T336 2026-04 https://goias.gov.br/goinfra/wp-content/uploads/sites/77/tabela-de-composicao/336/Custo_Referencial_de_Servicos.xls
+  titulo: Tabela de Preços: TABELA DE CUSTOS DE OBRAS CIVIS - T336 - ABRIL/2026 - COM DESONERAÇÃO Data Base: 01/04/2026 | itens: 1960
+sd T337 2026-04 https://goias.gov.br/goinfra/wp-content/uploads/sites/77/tabela-de-composicao/337/Custo_Referencial_de_Servicos.xls
+  titulo: Tabela de Preços: TABELA DE CUSTOS DE OBRAS CIVIS - T337 - ABRIL/2026 - SEM DESONERAÇÃO Data Base: 01/04/2026 | itens: 1960
+feito

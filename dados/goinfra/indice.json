@@ -1,0 +1,18 @@
+{
+ "cd": {
+  "tabela": "336",
+  "ref": "2026-04",
+  "titulo": "Tabela de Preços: TABELA DE CUSTOS DE OBRAS CIVIS - T336 - ABRIL/2026 - COM DESONERAÇÃO Data Base: 01/04/2026",
+  "itens": 1960,
+  "fonte": "https://goias.gov.br/goinfra/wp-content/uploads/sites/77/tabela-de-composicao/336/Custo_Referencial_de_Servicos.xls",
+  "atualizado": "2026-10-21"
+ },
+ "sd": {
+  "tabela": "337",
+  "ref": "2026-04",
+  "titulo": "Tabela de Preços: TABELA DE CUSTOS DE OBRAS CIVIS - T337 - ABRIL/2026 - SEM DESONERAÇÃO Data Base: 01/04/2026",
+  "itens": 1960,
+  "fonte": "https://goias.gov.br/goinfra/wp-content/uploads/sites/77/tabela-de-composicao/337/Custo_Referencial_de_Servicos.xls",
+  "atualizado": "2026-10-21"
+ }
+}
