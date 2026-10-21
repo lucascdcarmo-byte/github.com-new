@@ -1,0 +1,314 @@
+### Custo_Referencial_de_Servicos.xls 200 1007104 bytes application/vnd.ms-excel
+## aba Relatório linhas 2060 colunas 24
+0									GOINFRA - Agência Goiana de Infraestrutura e Transportes													30/06/2026 - 14:09		
+1																								
+2									Custo Referencial de Serviços															
+3																								
+4	Tabela de Preços:						TABELA DE CUSTOS DE OBRAS CIVIS - T337 - ABRIL/2026 - SEM DESONERAÇÃO												Data Base: 01/04/2026					
+5																								
+6	Código Auxiliar		Serviço													Unidade		Material			Mão-de-obra			Total
+7	164 		SERVIÇOS PRELIMINARES																					
+8	020000 		SERVIÇOS PRELIMINARES													S/U   		0.0			0.0			0.0
+9	020100 		DEMOLIÇÃO MANUAL - COBERTURA TELHA METÁLICA COM TRANSPORTE ATÉ CAÇAMBA E CARGA													m2    		0.0			5.34			5.34
+10	020101 		DEMOLIÇÃO MANUAL DE COBERTURA EM TELHA CERAMICA COM TRANSPORTE ATÉ CAÇAMBA E CARGA													m2    		0.0			8.54			8.54
+11	020102 		DEMOLICAO MANUAL COBERTURA TELHA FIBROCIMENTO/FIBRA DE VIDRO/SIMILARES C/ TRANSP. ATÉ CB. E CARGA													m2    		0.0			4.75			4.75
+12	020103 		DEMOLIÇÃO MANUAL ESTRUTURA EM MADEIRA TELHADO COM TRANSPORTE ATÉ CAÇAMBA E CARGA													m2    		0.0			24.71			24.71
+13	020104 		DEMOLIÇÃO MANUAL DE RIPA COM TRANSPORTE ATÉ CAÇAMBA E CARGA													m2    		0.0			2.02			2.02
+14	020105 		DEMOLIÇÃO MANUAL FORRO PAULISTA COM TRANSPORTE ATÉ CAÇAMBA E CARGA													m2    		0.0			5.69			5.69
+15	020106 		REMOÇÃO MANUAL DE JANELA OU PORTAL COM TRANSPORTE ATÉ CAÇAMBA E CARGA													m2    		0.0			9.5			9.5
+16	020107 		CORTE, DESTOCAMENTO, RETIRADA E REATERRO (MANUAIS) DE ÁRVORE GRANDE PORTE (H = 8 A 10 M / DIÂMETRO TRONCO 60 A 70CM E COPA DE 10 A 13M ) C/ TRANSPORTE ATE CAÇAMBA E CARGA 													Un    		0.0			781.24			781.24
+17	020108 		DEMOLIÇÃO MANUAL PISO/VIGA DE MADEIRA COM TRANSPORTE ATÉ CAÇAMBA E CARGA													m2    		0.0			21.38			21.38
+18	020109 		DEMOLIÇÃO MANUAL DE PISO CIMENTICIO SOBRE LASTRO DE CONCRETO COM TRANSPORTE ATE CAÇAMBA E CARGA													m2    		0.0			21.62			21.62
+19	020110 		DEMOLIÇÃO MANUAL DE PISO EM LADRILHO HIDRAULICO COM TRANSPORTE ATE CAÇAMBA E CARGA													m2    		0.0			13.3			13.3
+20	020111 		DEMOLIÇÃO MANUAL DE PISO CERÂMICO SOBRE LASTRO DE CONCRETO COM TRANSPORTE ATÉ CAÇAMBA E CARGA													m2    		0.0			13.3			13.3
+21	020112 		DEMOLIÇÃO MANUAL DE PISO CERÂMICO INCLUSIVE RETIRADA DE CONTRAPISO SOBRE LASTRO DE CONCRETO COM TRANSPORTE ATÉ CAÇAMBA E CARGA													m2    		0.0			24.94			24.94
+22	020113 		DEMOLIÇÃO MANUAL DE ASSOALHO DE MADEIRA COM TRANSPORTE ATÉ CAÇAMBA E CARGA													m2    		0.0			16.03			16.03
+23	020115 		DEMOLIÇÃO MANUAL DE REVESTIMENTOS COM AZULEJO COM TRANSPORTE ATE CAÇAMBA E CARGA													m2    		0.0			5.93			5.93
+24	020116 		DEMOLIÇÃO MANUAL DE LAMBRIL COM APROVEITAMENTO													m2    		0.0			4.75			4.75
+25	020117 		DEMOLIÇÃO MANUAL DE REVESTIMENTO COM ARGAMASSA COM TRANSPORTE ATÉ CAÇAMBA E CARGA													m2    		0.0			7.71			7.71
+26	020118 		DEMOLIÇÃO MANUAL ALVENARIA TIJOLO SEM REAPROVEITAMENTO COM TRANSPORTE ATE CAÇAMBA E CARGA													m3    		0.0			59.4			59.4
+27	020119 		DEMOLICÃO MANUAL DE ALVENARIA DE TIJOLO COM REAPROVEITAMENTO													m3    		0.0			114.06			114.06
+28	020121 		DEMOLIÇÃO MANUAL EM CONCRETO SIMPLES COM TRANSPORTE ATÉ CAÇAMBA E CARGA													m3    		0.0			247.14			247.14
+29	020125 		DEMOLIÇÃO MANUAL DE LAJE PRÉ-MOLDADA COM TRANSPORTE ATÉ CAÇAMBA E CARGA													m3    		0.0			318.74			318.74
+30	020126 		DEMOLICÃO MANUAL DE PISO INTERTRAVADO COM EMPILHAMENTO													m2    		0.0			13.3			13.3
+31	020127 		DEMOLIÇÃO MANUAL DE LAJE EM CONCRETO ARMADO COM TRANSPORTE ATE CAÇAMBA E CARGA													m3    		0.0			354.16			354.16
+32	020128 		DEMOLIÇÃO MANUAL DE PILAR EM CONCRETO ARMADO COM TRANSPORTE ATE A CAÇAMBA E CARGA													m3    		0.0			427.75			427.75
+33	020129 		DEMOLIÇÃO MANUAL DE VIGA EM CONCRETO ARMADO COM TRANSPORTE ATÉ CAÇAMBA E CARGA													m3    		0.0			475.28			475.28
+34	020130 		DEMOLIÇÃO MANUAL DE ALAMBRADO - POSTE DE CONCRETO/TELA/VIGA COM TRANSPORTE ATE CAÇAMBA E CARGA													m     		0.0			28.51			28.51
+35	020131 		DEMOLIÇÃO MANUAL DE FORRO PACOTE/ESTRUTURA COM TRANSPORTE ATE CAÇAMBA E CARGA													m2    		0.0			7.6			7.6
+36	020132 		DEMOLIÇÃO MANUAL DE PISO CARPETE COM TRANSPORTE ATE CAÇAMBA E CARGA													m2    		0.0			1.89			1.89
+37	020133 		DEMOLIÇÃO MANUAL DE PISO VINÍLICO COM TRANSPORTE ATE CAÇAMBA E CARGA													m2    		0.0			7.12			7.12
+38	020134 		DEMOLIÇÃO MANUAL DE FORRO GESSO COM TRANSPORTE ATÉ CAÇAMBA E CARGA													m2    		0.0			3.55			3.55
+39	020135 		DEMOLIÇÃO MANUAL DE ESTRUTURA EM METALON PARA FORRO DE GESSO COM TRANSPORTE ATÉ CAÇAMBA E CARGA													m2    		0.24			4.39			4.63
+40	020136 		DEMOLIÇÃO MANUAL DE CAIBRO E RIPA COM TRANSPORTE ATÉ CAÇAMBA E CARGA													m2    		0.0			7.28			7.28
+41	020137 		REMOÇÃO MANUAL DE BACIA SANITÁRIA COM TRANSPORTE ATÉ CAÇAMBA E CARGA													Un    		0.0			5.95			5.95
+42	020138 		REMOÇÃO MANUAL DE LAVATÓRIO COM TRANSPORTE ATÉ CAÇAMBA E CARGA													Un    		0.0			7.93			7.93
+43	020139 		DEMOLIÇÃO MANUAL DE BANCADA COM TRANSPORTE ATÉ CAÇAMBA E CARGA													m2    		0.0			5.93			5.93
+44	020140 		REMOÇÃO MANUAL DE METAL SANITÁRIO (VÁLVULAS/SIFÃO/REGISTROS/TORNEIRAS/OUTROS) COM TRANSPORTE ATÉ CAÇAMBA E CARGA													Un    		0.0			7.0			7.0
+45	020141 		REMOÇÃO DE CAIXA DESCARGA EXTERNA COM TRANSPORTE ATÉ CAÇAMBA E CARGA													Un    		0.0			5.95			5.95
+46	020142 		DEMOLIÇÃO MANUAL DE MEIO FIO COM REAPROVEITAMENTO													m     		0.0			12.67			12.67
+47	020143 		DEMOLIÇÃO MANUAL MEIO FIO SEM REAPROVEITAMENTO COM TRANSPORTE ATÉ CAÇAMBA E CARGA													m     		0.0			9.5			9.5
+48	020144 		DEMOLIÇÃO MANUAL DE PAVIMENTO ASFÁLTICO C/ TRANSPORTE ATÉ CAÇAMBA E CARGA 													m2    		0.0			7.4			7.4
+49	020145 		REMOÇÃO MANUAL DE BACIA TURCA COM TRANSPORTE ATÉ CAÇAMBA E CARGA													Un    		0.0			11.9			11.9
+50	020146 		REMOÇÃO MANUAL DE MICTÓRIO COM TRANSPORTE ATÉ CAÇAMBA E CARGA													Un    		0.0			7.93			7.93
+51	020147 		DEMOLIÇÃO MANUAL DE FORRO PVC, INCLUSIVE ESTRUTURA DE SUSTENTAÇÃO COM TRANSPORTE ATÉ CAÇAMBA E CARGA													m2    		0.0			6.88			6.88
+52	020148 		DEMOLIÇÃO MANUAL DE FORRO PVC (SOMENTE O FORRO) C/ TRANSP. ATÉ CB. E CARGA													m2    		0.0			3.31			3.31
+53	020149 		DEMOLIÇÃO MANUAL DE DIVISÓRIA/PAINEL PRÉ-FABRICADO COM REAPROVEITAMENTO													m2    		0.0			7.41			7.41
+54	020151 		DEMOLIÇÃO MANUAL DE DIVISÓRIA EM PEDRA/CONCRETO COM TRANSPORTE ATÉ CAÇAMBA E CARGA													m2    		0.0			11.87			11.87
+55	020155 		DEMOLIÇÃO MANUAL EM MURO/PAREDE PLACA PRÉ-MOLDADA COM TRANSPORTE ATÉ CAÇAMBA E CARGA													m2    		0.0			9.97			9.97
+56	020157 		DEMOLIÇÃO MANUAL DE CALHA/RUFO EM CHAPA COM TRANSPORTE ATÉ CAÇAMBA E CARGA													m2    		0.0			7.14			7.14
+57	020160 		DEMOLIÇÃO MANUAL DE TELA DE ALAMBRADO COM TRANSPORTE ATÉ CAÇAMBA E CARGA													m2    		0.0			3.55			3.55
+58	020164 		REMOÇÃO MANUAL DE TUBULAÇÃO (TUBO E CONEXÃO) COM TRANSPORTE ATÉ CAÇAMBA E CARGA (EXCLUSO RASGOS E ESCAVAÇÕES)													m     		0.0			0.89			0.89
+59	020165 		REMOÇÃO MANUAL DE FIO/CABO ELÉTRICO COM TRANSPORTE ATÉ CAÇAMBA E CARGA													m     		0.0			0.63			0.63
+...
+2052	271802 		LADRILHO HIDRAULICO DE UMA COR (SEM LASTRO)													m2    		130.09			35.53			165.62
+2053	271803 		LADRILHO HIDRAULICO DE DUAS CORES (SEM LASTRO)													m2    		121.7			35.53			157.23
+2054	271850 		LETRA CAIXA CHAPA GALVANIZADA PINTADA COLOCADA													m     		626.85			0.0			626.85
+2055	271851 		LETRA CAIXA INOX COLOCADA													m     		616.65			0.0			616.65
+2056	271852 		LETRA CAIXA INOX ESCOVADO COLOCADA													m     		694.7			0.0			694.7
+2057	271853 		LETRA  CAIXA LATAO AMARELO COLOCADA													m     		1199.43			0.0			1199.43
+2058	271900 		CUSTO MÉDIO DE CONSTRUÇÃO GOINFRA PARA CÁLCULO DE "ÁREA VIRTUAL"													m2    		2337.38			0.0			2337.38
+2059	SCO - Sistema de Custos e Orçamentos																							
+### Relatorio_de_Composicao_do_Servi.xls 200 10515968 bytes application/vnd.ms-excel
+## aba Relatório linhas 34324 colunas 21
+0					GOINFRA - Agência Goiana de Infraestrutura e Transportes													30/06/2026 - 14:10			
+1																					
+2					Relatório de Composição do Serviço																
+3																					
+4	Tabela de preços: 337 - TABELA DE CUSTOS DE OBRAS CIVIS - T337 - ABRIL/2026 - SEM DESONERAÇÃO																Data base: 01/04/2026				
+5	Serviço: 020100 - DEMOLIÇÃO MANUAL - COBERTURA TELHA METÁLICA COM TRANSPORTE ATÉ CAÇAMBA E CARGA																Unidade: m2    				
+6																					
+7	Código Auxiliar			(B) Mãos-de-obra			Eq. Salarial		Sal/Hora			Encargos(%)			Consumo					Custo Horário	
+8	0004 			PEDREIRO			11.56		29.14			152.14			0.0225					0.65	
+9	0005 			SERVENTE			7.52		20.85			177.33			0.225					4.69	
+10	(B) Total: 																5.34				
+11																					
+12	Custo direto total (A) + (B) + (C) + (D) + (E)																5.34				
+13	BDI: 0,00%																0.0				
+14	Preço unitário total																5.34				
+15																					
+16	Tabela de preços: 337 - TABELA DE CUSTOS DE OBRAS CIVIS - T337 - ABRIL/2026 - SEM DESONERAÇÃO																Data base: 01/04/2026				
+17	Serviço: 020101 - DEMOLIÇÃO MANUAL DE COBERTURA EM TELHA CERAMICA COM TRANSPORTE ATÉ CAÇAMBA E CARGA																Unidade: m2    				
+18																					
+19	Código Auxiliar			(B) Mãos-de-obra			Eq. Salarial		Sal/Hora			Encargos(%)			Consumo					Custo Horário	
+20	0004 			PEDREIRO			11.56		29.14			152.14			0.036					1.04	
+21	0005 			SERVENTE			7.52		20.85			177.33			0.36					7.5	
+22	(B) Total: 																8.54				
+23																					
+24	Custo direto total (A) + (B) + (C) + (D) + (E)																8.54				
+25	BDI: 0,00%																0.0				
+26	Preço unitário total																8.54				
+27																					
+28	Tabela de preços: 337 - TABELA DE CUSTOS DE OBRAS CIVIS - T337 - ABRIL/2026 - SEM DESONERAÇÃO																Data base: 01/04/2026				
+29	Serviço: 020102 - DEMOLICAO MANUAL COBERTURA TELHA FIBROCIMENTO/FIBRA DE VIDRO/SIMILARES C/ TRANSP. ATÉ CB. E CARGA																Unidade: m2    				
+30																					
+31	Código Auxiliar			(B) Mãos-de-obra			Eq. Salarial		Sal/Hora			Encargos(%)			Consumo					Custo Horário	
+32	0004 			PEDREIRO			11.56		29.14			152.14			0.02					0.58	
+33	0005 			SERVENTE			7.52		20.85			177.33			0.2					4.17	
+34	(B) Total: 																4.75				
+35																					
+36	Custo direto total (A) + (B) + (C) + (D) + (E)																4.75				
+37	BDI: 0,00%																0.0				
+38	Preço unitário total																4.75				
+39																					
+40	Tabela de preços: 337 - TABELA DE CUSTOS DE OBRAS CIVIS - T337 - ABRIL/2026 - SEM DESONERAÇÃO																Data base: 01/04/2026				
+41	Serviço: 020103 - DEMOLIÇÃO MANUAL ESTRUTURA EM MADEIRA TELHADO COM TRANSPORTE ATÉ CAÇAMBA E CARGA																Unidade: m2    				
+42																					
+43	Código Auxiliar			(B) Mãos-de-obra			Eq. Salarial		Sal/Hora			Encargos(%)			Consumo					Custo Horário	
+44	0010 			CARPINTEIRO			11.56		29.15			152.19			0.104					3.03	
+45	0005 			SERVENTE			7.52		20.85			177.33			1.04					21.68	
+46	(B) Total: 																24.71				
+47																					
+48	Custo direto total (A) + (B) + (C) + (D) + (E)																24.71				
+49	BDI: 0,00%																0.0				
+50	Preço unitário total																24.71				
+51																					
+52	Tabela de preços: 337 - TABELA DE CUSTOS DE OBRAS CIVIS - T337 - ABRIL/2026 - SEM DESONERAÇÃO																Data base: 01/04/2026				
+53	Serviço: 020104 - DEMOLIÇÃO MANUAL DE RIPA COM TRANSPORTE ATÉ CAÇAMBA E CARGA																Unidade: m2    				
+54																					
+55	Código Auxiliar			(B) Mãos-de-obra			Eq. Salarial		Sal/Hora			Encargos(%)			Consumo					Custo Horário	
+56	0008 			AJUDANTE			8.28		22.4			170.59			0.08					1.79	
+57	0010 			CARPINTEIRO			11.56		29.15			152.19			0.008					0.23	
+58	(B) Total: 																2.02				
+59																					
+60	Custo direto total (A) + (B) + (C) + (D) + (E)																2.02				
+61	BDI: 0,00%																0.0				
+62	Preço unitário total																2.02				
+63																					
+64	Tabela de preços: 337 - TABELA DE CUSTOS DE OBRAS CIVIS - T337 - ABRIL/2026 - SEM DESONERAÇÃO																Data base: 01/04/2026				
+65	Serviço: 020105 - DEMOLIÇÃO MANUAL FORRO PAULISTA COM TRANSPORTE ATÉ CAÇAMBA E CARGA																Unidade: m2    				
+66																					
+67	Código Auxiliar			(B) Mãos-de-obra			Eq. Salarial		Sal/Hora			Encargos(%)			Consumo					Custo Horário	
+68	0010 			CARPINTEIRO			11.56		29.15			152.19			0.024					0.69	
+69	0005 			SERVENTE			7.52		20.85			177.33			0.24					5.0	
+70	(B) Total: 																5.69				
+71																					
+72	Custo direto total (A) + (B) + (C) + (D) + (E)																5.69				
+73	BDI: 0,00%																0.0				
+74	Preço unitário total																5.69				
+75																					
+76	Tabela de preços: 337 - TABELA DE CUSTOS DE OBRAS CIVIS - T337 - ABRIL/2026 - SEM DESONERAÇÃO																Data base: 01/04/2026				
+77	Serviço: 020106 - REMOÇÃO MANUAL DE JANELA OU PORTAL COM TRANSPORTE ATÉ CAÇAMBA E CARGA																Unidade: m2    				
+78																					
+79	Código Auxiliar			(B) Mãos-de-obra			Eq. Salarial		Sal/Hora			Encargos(%)			Consumo					Custo Horário	
+80	0004 			PEDREIRO			11.56		29.14			152.14			0.04					1.16	
+81	0005 			SERVENTE			7.52		20.85			177.33			0.4					8.34	
+82	(B) Total: 																9.5				
+83																					
+84	Custo direto total (A) + (B) + (C) + (D) + (E)																9.5				
+85	BDI: 0,00%																0.0				
+86	Preço unitário total																9.5				
+87																					
+88	Tabela de preços: 337 - TABELA DE CUSTOS DE OBRAS CIVIS - T337 - ABRIL/2026 - SEM DESONERAÇÃO																Data base: 01/04/2026				
+89	Serviço: 020107 - CORTE, DESTOCAMENTO, RETIRADA E REATERRO (MANUAIS) DE ÁRVORE GRANDE PORTE (H = 8 A 10 M / DIÂMETRO TRONCO 60 A 70CM E COPA DE 10 A 13M ) C/ TRANSPORTE ATE CAÇAMBA E CARGA 																Unidade: Un    				
+90																					
+91	Código Auxiliar			(B) Mãos-de-obra			Eq. Salarial		Sal/Hora			Encargos(%)			Consumo					Custo Horário	
+92	0025 			OFICIAL "B"			11.56		29.14			152.14			10.6361					309.93	
+93	0005 			SERVENTE			7.52		20.85			177.33			22.605					471.31	
+94	(B) Total: 																781.24				
+95																					
+96	Custo direto total (A) + (B) + (C) + (D) + (E)																781.24				
+97	BDI: 0,00%																0.0				
+98	Preço unitário total																781.24				
+99																					
+100	Tabela de preços: 337 - TABELA DE CUSTOS DE OBRAS CIVIS - T337 - ABRIL/2026 - SEM DESONERAÇÃO																Data base: 01/04/2026				
+101	Serviço: 020108 - DEMOLIÇÃO MANUAL PISO/VIGA DE MADEIRA COM TRANSPORTE ATÉ CAÇAMBA E CARGA																Unidade: m2    				
+102																					
+103	Código Auxiliar			(B) Mãos-de-obra			Eq. Salarial		Sal/Hora			Encargos(%)			Consumo					Custo Horário	
+104	0010 			CARPINTEIRO			11.56		29.15			152.19			0.09					2.62	
+105	0005 			SERVENTE			7.52		20.85			177.33			0.9					18.76	
+106	(B) Total: 																21.38				
+107																					
+108	Custo direto total (A) + (B) + (C) + (D) + (E)																21.38				
+109	BDI: 0,00%																0.0				
+110	Preço unitário total																21.38				
+111																					
+112	Tabela de preços: 337 - TABELA DE CUSTOS DE OBRAS CIVIS - T337 - ABRIL/2026 - SEM DESONERAÇÃO																Data base: 01/04/2026				
+113	Serviço: 020109 - DEMOLIÇÃO MANUAL DE PISO CIMENTICIO SOBRE LASTRO DE CONCRETO COM TRANSPORTE ATE CAÇAMBA E CARGA																Unidade: m2    				
+114																					
+115	Código Auxiliar			(B) Mãos-de-obra			Eq. Salarial		Sal/Hora			Encargos(%)			Consumo					Custo Horário	
+116	0004 			PEDREIRO			11.56		29.14			152.14			0.091					2.65	
+117	0005 			SERVENTE			7.52		20.85			177.33			0.91					18.97	
+118	(B) Total: 																21.62				
+119																					
+120	Custo direto total (A) + (B) + (C) + (D) + (E)																21.62				
+121	BDI: 0,00%																0.0				
+122	Preço unitário total																21.62				
+123																					
+124	Tabela de preços: 337 - TABELA DE CUSTOS DE OBRAS CIVIS - T337 - ABRIL/2026 - SEM DESONERAÇÃO																Data base: 01/04/2026				
+125	Serviço: 020110 - DEMOLIÇÃO MANUAL DE PISO EM LADRILHO HIDRAULICO COM TRANSPORTE ATE CAÇAMBA E CARGA																Unidade: m2    				
+126																					
+127	Código Auxiliar			(B) Mãos-de-obra			Eq. Salarial		Sal/Hora			Encargos(%)			Consumo					Custo Horário	
+128	0004 			PEDREIRO			11.56		29.14			152.14			0.056					1.63	
+129	0005 			SERVENTE			7.52		20.85			177.33			0.56					11.67	
+130	(B) Total: 																13.3				
+131																					
+132	Custo direto total (A) + (B) + (C) + (D) + (E)																13.3				
+133	BDI: 0,00%																0.0				
+134	Preço unitário total																13.3				
+135																					
+136	Tabela de preços: 337 - TABELA DE CUSTOS DE OBRAS CIVIS - T337 - ABRIL/2026 - SEM DESONERAÇÃO																Data base: 01/04/2026				
+137	Serviço: 020111 - DEMOLIÇÃO MANUAL DE PISO CERÂMICO SOBRE LASTRO DE CONCRETO COM TRANSPORTE ATÉ CAÇAMBA E CARGA																Unidade: m2    				
+138																					
+139	Código Auxiliar			(B) Mãos-de-obra			Eq. Salarial		Sal/Hora			Encargos(%)			Consumo					Custo Horário	
+140	0004 			PEDREIRO			11.56		29.14			152.14			0.056					1.63	
+141	0005 			SERVENTE			7.52		20.85			177.33			0.56					11.67	
+142	(B) Total: 																13.3				
+143																					
+144	Custo direto total (A) + (B) + (C) + (D) + (E)																13.3				
+145	BDI: 0,00%																0.0				
+146	Preço unitário total																13.3				
+147																					
+148	Tabela de preços: 337 - TABELA DE CUSTOS DE OBRAS CIVIS - T337 - ABRIL/2026 - SEM DESONERAÇÃO																Data base: 01/04/2026				
+149	Serviço: 020112 - DEMOLIÇÃO MANUAL DE PISO CERÂMICO INCLUSIVE RETIRADA DE CONTRAPISO SOBRE LASTRO DE CONCRETO COM TRANSPORTE ATÉ CAÇAMBA E CARGA																Unidade: m2    				
+150																					
+151	Código Auxiliar			(B) Mãos-de-obra			Eq. Salarial		Sal/Hora			Encargos(%)			Consumo					Custo Horário	
+152	0004 			PEDREIRO			11.56		29.14			152.14			0.105					3.05	
+153	0005 			SERVENTE			7.52		20.85			177.33			1.05					21.89	
+154	(B) Total: 																24.94				
+155																					
+156	Custo direto total (A) + (B) + (C) + (D) + (E)																24.94				
+157	BDI: 0,00%																0.0				
+158	Preço unitário total																24.94				
+159																					
+...
+34316	Código Auxiliar			(C) Materiais						Unidade			Valor unitário			Consumo					Valor total
+34317	2990 			CUSTO MÉDIO DE CONSTRUÇÃO GOINFRA PARA CÁLCULO DE "ÁREA VIRTUAL" **						m2    			2337.38			1.0					2337.38
+34318	(C) Total: 																2337.38				
+34319																					
+34320	Custo direto total (A) + (B) + (C) + (D) + (E)																2337.38				
+34321	BDI: 0,00%																0.0				
+34322	Preço unitário total																2337.38				
+34323	SCO - Sistema de Custos e Orçamentos																				
+### Material.xls 200 629760 bytes application/vnd.ms-excel
+## aba Relatório linhas 1836 colunas 13
+0					GOINFRA - Agência Goiana de Infraestrutura e Transportes						30/06/2026 - 14:09		
+1													
+2					Custo Referencial de Materiais (sem Bonificação)								
+3													
+4	Tabela:		337 - TABELA DE CUSTOS DE OBRAS CIVIS - T337 - ABRIL/2026 - SEM DESONERAÇÃO					Data base:  01/04/2026					
+5													
+6													
+7													
+8	01 - MATERIAL BÁSICO												
+9	Código Auxiliar		Descrição do Material							Unidade			Custo Unitário
+10	110.0		ÁCIDO MURIÁTICO (D=1,2 KG/L)							l			11.3
+11	2721.0		AÇO CA 25A D=20 MM							Kg			7.95
+12	1120.0		AÇO CA-25							Kg			8.21
+13	2436.0		AÇO CA-25 - 6,3 MM (1/4") - BARRA LISA A-36							Kg			8.86
+14	2441.0		AÇO CA-50 - 16,0 MM (5/8")							Kg			6.33
+15	2442.0		AÇO CA-50 - 20,0 MM (3/4")							Kg			6.31
+16	2444.0		AÇO CA-50 - 25,0 MM (1")							Kg			6.22
+17	2437.0		AÇO CA-50 - 6,3 MM (1/4")							Kg			6.79
+18	2438.0		AÇO CA-50 - 8,0 MM (5/16")							Kg			6.66
+19	2439.0		AÇO CA-50 10,0 MM (3/8")							Kg			6.61
+20	2440.0		AÇO CA-50 12,5 MM (1/2")							Kg			6.58
+21	2446.0		AÇO CA-60 - 4,2 MM							Kg			8.76
+22	2448.0		AÇO CA-60 B - 5,0 MM							Kg			7.82
+23	1130.0		AÇO INOX 304 N.20 (1,00 MM) DOBRADO (PREÇO KG+PREÇO DOBRA)							m2			430.48
+24	2754.0		AÇO LISO 25 MM (MECÂNICO)							Kg			7.83
+...
+1828	H262		VALVULA PARA PIA TIPO AMERICANA DIAMETRO 3.1/2" (METALICA)							un			33.68
+1829	H514		VÁLVULA PARA TANQUE METÁLICA DIAM. 1" SEM LADRAO							un			26.98
+1830	H263		VALVULA PARA TANQUE PVC 1"							un			5.9
+1831	H513		VASO SANITARIO COM CAIXA ACOPLADA COM DUPLO ACIONAMENTO 							un			450.0
+1832	H264		VASO SANITARIO CONVENCIONAL							un			266.27
+1833	H712		VASO SANITÁRIO PARA PcD COM CAIXA ACOPLADA COM DUPLO ACIONAMENTO							un			1137.99
+1834	H711		VASO SANITÁRIO PARA PcD SEM ABERTURA FRONTAL							un			619.1
+1835	SCO - Sistema de Custos e Orçamentos												
+### Mao_de_obra.xls 200 69632 bytes application/vnd.ms-excel
+## aba Relatório linhas 49 colunas 14
+0					GOINFRA - Agência Goiana de Infraestrutura e Transportes								30/06/2026 - 14:09	
+1														
+2					Custo Referencial de Mão de Obra (sem Bonificação) 									
+3														
+4	Tabela:		337 - TABELA DE CUSTOS DE OBRAS CIVIS - T337 - ABRIL/2026 - SEM DESONERAÇÃO						Data base:  01/04/2026					
+5														
+6														
+7														
+8	 01 - MÃO-DE-OBRA - HORISTAS													
+9														
+10	Código Auxiliar		Descrição da Mão de Obra					Unidade	Encargos		Valor sem encargos			Valor com encargos
+11	8.0		AJUDANTE					h	170.59		8.28			22.4
+12	30.0		AJUDANTE DE CARPINTEIRO					h	170.59		8.28			22.4
+13	23.0		APLICADOR DE EPOXI					h	151.77		11.56			29.1
+14	6.0		ARMADOR					h	152.36		11.56			29.17
+15	28.0		AZULEJISTA					h	151.92		11.56			29.12
+16	34.0		CALCETEIRO 					h	156.98		11.56			29.7
+17	20.0		CALHEIRO					h	162.13		10.68			27.99
+18	10.0		CARPINTEIRO					h	152.19		11.56			29.15
+19	12.0		ELETRICISTA					h	155.04		11.56			29.48
+20	40.0		ELETROTÉCNICO					h	145.46		14.2			34.85
+21	11.0		ENCANADOR					h	157.64		11.56			29.78
+22	19.0		JARDINEIRO					h	174.54		7.83			21.49
+23	24.0		MARCENEIRO					h	151.31		11.56			29.05
+24	41.0		MECÂNICO DE REFRIGERAÇÃO					h	155.21		11.56			29.5
+...
+41	2.0		ENCARREGADO					MÊS	99.37		3542.0			7061.68
+42	1.0		ENGENHEIRO					MÊS	81.58		14571.52			26458.96
+43	3.0		MESTRE DE OBRAS					MÊS	88.42		6857.56			12921.01
+44	38.0		TÉCNICO EM SEGURANÇA DO TRABALHO					MÊS	100.33		3476.48			6964.43
+45	42.0		VIGIA DE OBRA DIURNO - 08 HORAS					MÊS	132.09		1653.42			3837.42
+46	43.0		VIGIA DE OBRA DIURNO - 12X36 HORAS					MÊS	111.84		1690.72			3581.62
+47	44.0		VIGIA DE OBRA NOTURNO - 12X36 HORAS					MÊS	129.03		1690.72			3872.25
+48	SCO - Sistema de Custos e Orçamentos													
