@@ -103,6 +103,83 @@ def ler_planilhas(pasta):
     return melhor, inventario
 
 
+
+def ultimo_num(row):
+    for v in reversed(row):
+        n = num(v)
+        if n is not None:
+            return n
+    return None
+
+
+def ler_analitico(linhas):
+    comps = {}
+    atual = None
+    secao = ''
+    ant = ''
+    for row in linhas:
+        row = list(row or [])
+        c0 = str(row[0] if row else '' or '').strip()
+        txt = norm(' '.join(str(x) for x in row if x is not None))
+        if re.fullmatch(r'\d{7}', c0) and 'custo unitario de referencia' in ant:
+            atual = {'exec': 0.0, 'fic': 0.0, 'mat': 0.0, 'aux': [], 'tf': 0.0, 'tr': 0.0}
+            comps[c0] = atual
+            secao = ''
+            ant = txt
+            continue
+        ant = txt
+        if atual is None:
+            continue
+        if re.match(r'^[a-f] ', norm(c0) + ' ') and ' - ' in c0:
+            secao = norm(c0)[0]
+            continue
+        v = ultimo_num(row)
+        if 'custo unitario de execucao' in txt:
+            atual['exec'] = v or 0.0
+        elif 'custo do fic' in txt:
+            atual['fic'] = v or 0.0
+        elif 'custo unitario total de material' in txt:
+            atual['mat'] = v or 0.0
+        elif 'custo unitario total de tempo fixo' in txt:
+            atual['tf'] = v or 0.0
+        elif 'custo unitario total de transporte' in txt:
+            atual['tr'] = v or 0.0
+        elif secao == 'd' and re.fullmatch(r'\d{7}', c0) and v:
+            atual['aux'].append((c0, v))
+    return comps
+
+
+def fracao_material(comps, c, memo, pilha):
+    if c in memo:
+        return memo[c]
+    x = comps.get(c)
+    if x is None or c in pilha:
+        return None
+    pilha.add(c)
+    mat = x['mat']
+    tot = x['exec'] + x['fic'] + x['mat'] + x['tf'] + x['tr']
+    for ca, v in x['aux']:
+        f = fracao_material(comps, ca, memo, pilha)
+        mat += v * (f if f is not None else 0.0)
+        tot += v
+    pilha.discard(c)
+    memo[c] = (mat / tot) if tot > 0 else None
+    return memo[c]
+
+
+def dividir(itens, comps):
+    memo = {}
+    n = 0
+    for it in itens:
+        f = fracao_material(comps, it['c'], memo, set())
+        if f is None:
+            continue
+        m = round(it['p'] * f, 2)
+        it['m'] = m
+        it['s'] = round(it['p'] - m, 2)
+        n += 1
+    return n
+
 def main():
     os.makedirs('dados/sicro', exist_ok=True)
     indice_path = 'dados/sicro/indice.json'
@@ -111,7 +188,7 @@ def main():
     print('UFs encontradas:', len(refs))
     for uf, ((ano, mes, rev), pagina) in sorted(refs.items()):
         ref = '%04d-%02d' % (ano, mes) + ('R' if rev else '')
-        if indice.get(uf, {}).get('ref') == ref and os.path.exists('dados/sicro/%s.json' % uf):
+        if indice.get(uf, {}).get('ref') == ref and indice.get(uf, {}).get('v') == 2 and os.path.exists('dados/sicro/%s.json' % uf):
             print(uf, ref, 'ja atualizado')
             continue
         print(uf, ref, pagina)
@@ -146,8 +223,14 @@ def main():
             if not itens:
                 print('  nenhuma composicao lida')
                 continue
+            for raiz, _, nomes in os.walk(ext):
+                for n in nomes:
+                    if 'analitico de composic' in norm(n) and n.lower().endswith('.xlsx'):
+                        wb = openpyxl.load_workbook(os.path.join(raiz, n), read_only=True, data_only=True)
+                        comps = ler_analitico(wb.worksheets[0].iter_rows(values_only=True))
+                        print('  analitico:', len(comps), 'composicoes | MAT/SERV em', dividir(itens, comps), 'itens')
             json.dump(itens, open('dados/sicro/%s.json' % uf, 'w'), ensure_ascii=False, separators=(',', ':'))
-            indice[uf] = {'ref': ref, 'itens': len(itens), 'fonte': url, 'atualizado': datetime.date.today().isoformat()}
+            indice[uf] = {'v': 2, 'ref': ref, 'itens': len(itens), 'fonte': url, 'atualizado': datetime.date.today().isoformat()}
             json.dump(indice, open(indice_path, 'w'), ensure_ascii=False, indent=1)
         except Exception as e:
             print('  erro', uf, e)
