@@ -142,5 +142,23 @@
   "itens": 6619,
   "fonte": "https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/custos-referenciais/sistemas-de-custos/sicro/relatorios/relatorios-sicro/norte/tocantins/2026/julho/to-07-2026.7z",
   "atualizado": "2026-10-21"
+ },
+ "AM": {
+  "ref": "2026-07",
+  "itens": 6619,
+  "fonte": "https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/custos-referenciais/sistemas-de-custos/sicro/relatorios/relatorios-sicro/norte/amazonas/2026/julho/am-07-2026.7z",
+  "atualizado": "2026-10-21"
+ },
+ "CE": {
+  "ref": "2026-07",
+  "itens": 6619,
+  "fonte": "https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/custos-referenciais/sistemas-de-custos/sicro/relatorios/relatorios-sicro/nordeste/ceara/2026/julho/ce-07-2026.7z",
+  "atualizado": "2026-10-21"
+ },
+ "SP": {
+  "ref": "2026-07",
+  "itens": 6619,
+  "fonte": "https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/custos-referenciais/sistemas-de-custos/sicro/relatorios/relatorios-sicro/sudeste/sao-paulo/2026/julho/sp-07-2026.7z",
+  "atualizado": "2026-10-21"
  }
 }
