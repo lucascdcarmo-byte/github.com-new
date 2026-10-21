@@ -1,0 +1,26 @@
+name: GOINFRA
+on:
+  schedule:
+    - cron: '47 9 5,20 * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['goinfra.py', '.github/workflows/goinfra.yml']
+permissions:
+  contents: write
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install requests xlrd
+      - run: mkdir -p dados/goinfra && python -u goinfra.py 2>&1 | tee dados/goinfra/log.txt
+      - run: |
+          git config user.name "caos-robo"
+          git config user.email "caos-robo@users.noreply.github.com"
+          git add dados
+          git diff --cached --quiet || (git commit -m "GOINFRA atualizado" && git pull --rebase && git push)
