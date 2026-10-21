@@ -1,27 +1,26 @@
-import requests, re
-from bs4 import BeautifulSoup
+import requests, re, json
 S = requests.Session()
 S.headers['User-Agent'] = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/156.0 Safari/537.36'
 out = open('dados/busca_goinfra.txt', 'w')
-vistos = set()
-fila = ['https://goias.gov.br/goinfra/', 'https://goias.gov.br/goinfra/wp-content/uploads/sites/77/tabela-de-composicao/85/arquivos/', 'https://goias.gov.br/goinfra/wp-content/uploads/sites/77/tabela-de-composicao/']
-n = 0
-while fila and n < 40:
-    u = fila.pop(0)
-    if u in vistos:
-        continue
-    vistos.add(u); n += 1
+B = 'https://goias.gov.br/goinfra/wp-json/wp/v2/'
+paginas = {}
+for termo in ['tabela', 'custo', 'composi', 'preço', 'referencial']:
+    for tipo in ['pages', 'posts']:
+        try:
+            r = S.get(B + tipo, params={'search': termo, 'per_page': 50, '_fields': 'id,link,title'}, timeout=60)
+            for p in r.json():
+                paginas[p['link']] = p['title']['rendered']
+        except Exception as e:
+            out.write('ERRO %s %s %s\n' % (tipo, termo, e))
+for l, t in paginas.items():
+    out.write('PAG %s | %s\n' % (t, l))
+for l in list(paginas):
     try:
-        r = S.get(u, timeout=60)
-    except Exception as e:
-        out.write('ERRO %s %s\n' % (u, e)); continue
-    out.write('### %s %s %s\n' % (r.status_code, u, r.headers.get('content-type')))
-    if 'html' not in (r.headers.get('content-type') or ''):
+        h = S.get(l, timeout=60).text
+    except Exception:
         continue
-    for a in BeautifulSoup(r.text, 'html.parser').find_all('a', href=True):
-        h = a['href']; t = ' '.join(a.get_text().split())
-        if re.search(r'tabela|custo|composi|preco|preço|referenc|\.xls|\.zip', h + ' ' + t, re.I):
-            out.write('%s | %s\n' % (t[:120], h))
-            if h.startswith('https://goias.gov.br/goinfra') and not re.search(r'\.(pdf|xls|xlsx|zip)$', h, re.I):
-                fila.append(h)
+    achados = set(re.findall(r'(https?://[^"\'\s<>]*(?:tabela-de-composicao|\.xlsx?|\.zip)[^"\'\s<>]*)', h, re.I))
+    achados |= set(re.findall(r'<iframe[^>]+src="([^"]+)"', h, re.I))
+    for a in sorted(achados):
+        out.write('  %s -> %s\n' % (l, a))
 out.close()
