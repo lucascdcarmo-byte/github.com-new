@@ -1,0 +1,261 @@
+### GO 07-2026 Relatório Analítico de Composições de Custos.xlsx | Sheet1 | linhas 210814
+0	SISTEMA DE CUSTOS REFERENCIAIS DE OBRAS - SICRO			Goiás			FIC	0.03229	
+1	Custo Unitário de Referência			Julho/2026			Produção da equipe 	2	dm³
+2	0307731	Aparelho de apoio de neoprene fretado para estruturas moldadas no local - fornecimento e instalação						Valores em reais (R$)	
+3	A - EQUIPAMENTOS		Quantidade	Utilização		Custo Horário			Custo
+4				Operativa	Improdutiva	Produtivo	Improdutivo		Horário Total
+5							Custo horário total de equipamentos		
+6	B - MÃO DE OBRA		Quantidade	Unidade		Custo Horário	Custo Horário Total		
+7	P9821	Pedreiro	2	h		31.6615			63.323
+8			Custo horário total de mão de obra						63.323
+9			Custo horário total de execução						63.323
+10			Custo unitário de execução						31.6615
+11							Custo do FIC		1.0223
+12	C - MATERIAL		Quantidade	Unidade		Preço Unitário	Custo Unitário		
+13	M0798	Apoio de neoprene fretado	1	dm³		147.646			147.646
+14	M0786	Placa de poliestireno expandido (EPS)	0.00627	m³		406.4511			2.5484
+15			Custo unitário total de material						150.1944
+16	D - ATIVIDADES AUXILIARES		Quantidade	Unidade		Custo Unitário	Custo Unitário		
+17			Custo total de atividades auxiliares						
+18							Subtotal		182.8782
+19	E - TEMPO FIXO		Código	Quantidade	Unidade		Custo Unitário	Custo Unitário	
+20	M0798	Apoio de neoprene fretado - Caminhão carroceria 15 t	5914655	0.0032	t		37.93		0.1214
+21	M0786	Placa de poliestireno expandido (EPS) - Caminhão carroceria 15 t	5914655	7e-05	t		37.93		0.0027
+22			Custo unitário total de tempo fixo						0.1241
+23	F - MOMENTO DE TRANSPORTE		Quantidade	Unidade	DMT			FIT	Custo Unitário
+24					LN	RP	P		
+25	M0798	Apoio de neoprene fretado - Caminhão carroceria 15 t	0.0032	tkm	5914449	5914464	5914479		
+26	M0786	Placa de poliestireno expandido (EPS) - Caminhão carroceria 15 t	0.00167	tkm	5914449	5914464	5914479		
+27			Custo unitário total de transporte						
+28					Custo unitário direto total				183
+29	Obs.								
+30									
+31	SISTEMA DE CUSTOS REFERENCIAIS DE OBRAS - SICRO			Goiás			FIC	0.03229	
+32	Custo Unitário de Referência			Julho/2026			Produção da equipe 	6	dm³
+33	0307732	Aparelho de apoio de neoprene fretado para estruturas pré-moldadas - fornecimento e instalação						Valores em reais (R$)	
+34	A - EQUIPAMENTOS		Quantidade	Utilização		Custo Horário			Custo
+35				Operativa	Improdutiva	Produtivo	Improdutivo		Horário Total
+36							Custo horário total de equipamentos		
+37	B - MÃO DE OBRA		Quantidade	Unidade		Custo Horário	Custo Horário Total		
+38	P9821	Pedreiro	1	h		31.6615			31.6615
+39			Custo horário total de mão de obra						31.6615
+40			Custo horário total de execução						31.6615
+41			Custo unitário de execução						5.2769
+42							Custo do FIC		0.1704
+43	C - MATERIAL		Quantidade	Unidade		Preço Unitário	Custo Unitário		
+44	M0798	Apoio de neoprene fretado	1	dm³		147.646			147.646
+45			Custo unitário total de material						147.646
+46	D - ATIVIDADES AUXILIARES		Quantidade	Unidade		Custo Unitário	Custo Unitário		
+47			Custo total de atividades auxiliares						
+48							Subtotal		153.0933
+49	E - TEMPO FIXO		Código	Quantidade	Unidade		Custo Unitário	Custo Unitário	
+50	M0798	Apoio de neoprene fretado - Caminhão carroceria 15 t	5914655	0.0032	t		37.93		0.1214
+51			Custo unitário total de tempo fixo						0.1214
+52	F - MOMENTO DE TRANSPORTE		Quantidade	Unidade	DMT			FIT	Custo Unitário
+53					LN	RP	P		
+54	M0798	Apoio de neoprene fretado - Caminhão carroceria 15 t	0.0032	tkm	5914449	5914464	5914479		
+55			Custo unitário total de transporte						
+56					Custo unitário direto total				153.21
+57	Obs.								
+58									
+59	SISTEMA DE CUSTOS REFERENCIAIS DE OBRAS - SICRO			Goiás			FIC	0.0339	
+60	Custo Unitário de Referência			Julho/2026			Produção da equipe 	2	un
+61	0308308	Aparelho de apoio metálico elastomérico fixo com capacidade de 1.500 kN - fornecimento e instalação						Valores em reais (R$)	
+62	A - EQUIPAMENTOS		Quantidade	Utilização		Custo Horário			Custo
+63				Operativa	Improdutiva	Produtivo	Improdutivo		Horário Total
+64	E9050	Guindaste móvel compacto com plataforma integrada sobre pneus com 2 eixos com capacidade de 18 t - 97 kW	0.48193	1	0	422.3035	219.3536		203.5207
+65							Custo horário total de equipamentos		203.5207
+66	B - MÃO DE OBRA		Quantidade	Unidade		Custo Horário	Custo Horário Total		
+67	P9801	Ajudante	4	h		25.2949			101.1796
+68	P9830	Montador	1	h		36.2153			36.2153
+69			Custo horário total de mão de obra						137.3949
+70			Custo horário total de execução						340.9156
+71			Custo unitário de execução						170.4578
+72							Custo do FIC		4.1207
+73	C - MATERIAL		Quantidade	Unidade		Preço Unitário	Custo Unitário		
+74	M2758	Aparelho de apoio metálico elastomérico fixo com 4 chumbadores e capacidade de 1.500 kN	1	un		4871.8685			4871.8685
+75			Custo unitário total de material						4871.8685
+76	D - ATIVIDADES AUXILIARES		Quantidade	Unidade		Custo Unitário	Custo Unitário		
+77	1108059	Microconcreto para reparos e grauteamento - confecção em misturador e lançamento manual	0.02305	m³		3285.33			75.7269
+78			Custo total de atividades auxiliares						75.7269
+79							Subtotal		5122.1739
+80	E - TEMPO FIXO		Código	Quantidade	Unidade		Custo Unitário	Custo Unitário	
+81	M2758	Aparelho de apoio metálico elastomérico fixo com 4 chumbadores e capacidade de 1.500 kN - Guindauto 6,2 t	5915373	0.038	t		21.06		0.8003
+82			Custo unitário total de tempo fixo						0.8003
+83	F - MOMENTO DE TRANSPORTE		Quantidade	Unidade	DMT			FIT	Custo Unitário
+84					LN	RP	P		
+85	M2758	Aparelho de apoio metálico elastomérico fixo com 4 chumbadores e capacidade de 1.500 kN - Guindauto 6,2 t	0.038	tkm	5914584	5914599	5914614		
+86			Custo unitário total de transporte						
+87					Custo unitário direto total				5122.97
+88	Obs.								
+89									
+90	SISTEMA DE CUSTOS REFERENCIAIS DE OBRAS - SICRO			Goiás			FIC	0.0339	
+91	Custo Unitário de Referência			Julho/2026			Produção da equipe 	1	un
+92	0308313	Aparelho de apoio metálico elastomérico fixo com capacidade de 10.000 kN - fornecimento e instalação						Valores em reais (R$)	
+93	A - EQUIPAMENTOS		Quantidade	Utilização		Custo Horário			Custo
+94				Operativa	Improdutiva	Produtivo	Improdutivo		Horário Total
+95	E9050	Guindaste móvel compacto com plataforma integrada sobre pneus com 2 eixos com capacidade de 18 t - 97 kW	0.24096	1	0	422.3035	219.3536		101.7583
+96							Custo horário total de equipamentos		101.7583
+97	B - MÃO DE OBRA		Quantidade	Unidade		Custo Horário	Custo Horário Total		
+98	P9801	Ajudante	4	h		25.2949			101.1796
+99	P9830	Montador	1	h		36.2153			36.2153
+100			Custo horário total de mão de obra						137.3949
+101			Custo horário total de execução						239.1532
+102			Custo unitário de execução						239.1532
+103							Custo do FIC		6.4495
+104	C - MATERIAL		Quantidade	Unidade		Preço Unitário	Custo Unitário		
+105	M2763	Aparelho de apoio metálico elastomérico fixo com 4 chumbadores e capacidade de 10.000 kN	1	un		30753.2599			30753.2599
+106			Custo unitário total de material						30753.2599
+107	D - ATIVIDADES AUXILIARES		Quantidade	Unidade		Custo Unitário	Custo Unitário		
+108	1108059	Microconcreto para reparos e grauteamento - confecção em misturador e lançamento manual	0.04765	m³		3285.33			156.546
+109			Custo total de atividades auxiliares						156.546
+110							Subtotal		31155.4086
+111	E - TEMPO FIXO		Código	Quantidade	Unidade		Custo Unitário	Custo Unitário	
+112	M2763	Aparelho de apoio metálico elastomérico fixo com 4 chumbadores e capacidade de 10.000 kN - Guindauto 6,2 t	5915373	0.24	t		21.06		5.0544
+113			Custo unitário total de tempo fixo						5.0544
+114	F - MOMENTO DE TRANSPORTE		Quantidade	Unidade	DMT			FIT	Custo Unitário
+115					LN	RP	P		
+116	M2763	Aparelho de apoio metálico elastomérico fixo com 4 chumbadores e capacidade de 10.000 kN - Guindauto 6,2 t	0.24	tkm	5914584	5914599	5914614		
+117			Custo unitário total de transporte						
+118					Custo unitário direto total				31160.46
+119	Obs.								
+120									
+121	SISTEMA DE CUSTOS REFERENCIAIS DE OBRAS - SICRO			Goiás			FIC	0.0339	
+122	Custo Unitário de Referência			Julho/2026			Produção da equipe 	1.75	un
+123	0308309	Aparelho de apoio metálico elastomérico fixo com capacidade de 2.500 kN - fornecimento e instalação						Valores em reais (R$)	
+124	A - EQUIPAMENTOS		Quantidade	Utilização		Custo Horário			Custo
+125				Operativa	Improdutiva	Produtivo	Improdutivo		Horário Total
+126	E9050	Guindaste móvel compacto com plataforma integrada sobre pneus com 2 eixos com capacidade de 18 t - 97 kW	0.42169	1	0	422.3035	219.3536		178.0812
+127							Custo horário total de equipamentos		178.0812
+128	B - MÃO DE OBRA		Quantidade	Unidade		Custo Horário	Custo Horário Total		
+129	P9801	Ajudante	4	h		25.2949			101.1796
+130	P9830	Montador	1	h		36.2153			36.2153
+131			Custo horário total de mão de obra						137.3949
+132			Custo horário total de execução						315.4761
+133			Custo unitário de execução						180.2721
+134							Custo do FIC		4.4534
+135	C - MATERIAL		Quantidade	Unidade		Preço Unitário	Custo Unitário		
+136	M2759	Aparelho de apoio metálico elastomérico fixo com 4 chumbadores e capacidade de 2.500 kN	1	un		8332.008			8332.008
+137			Custo unitário total de material						8332.008
+138	D - ATIVIDADES AUXILIARES		Quantidade	Unidade		Custo Unitário	Custo Unitário		
+139	1108059	Microconcreto para reparos e grauteamento - confecção em misturador e lançamento manual	0.02768	m³		3285.33			90.9379
+140			Custo total de atividades auxiliares						90.9379
+141							Subtotal		8607.6714
+142	E - TEMPO FIXO		Código	Quantidade	Unidade		Custo Unitário	Custo Unitário	
+143	M2759	Aparelho de apoio metálico elastomérico fixo com 4 chumbadores e capacidade de 2.500 kN - Guindauto 6,2 t	5915373	0.064	t		21.06		1.3478
+144			Custo unitário total de tempo fixo						1.3478
+145	F - MOMENTO DE TRANSPORTE		Quantidade	Unidade	DMT			FIT	Custo Unitário
+146					LN	RP	P		
+147	M2759	Aparelho de apoio metálico elastomérico fixo com 4 chumbadores e capacidade de 2.500 kN - Guindauto 6,2 t	0.064	tkm	5914584	5914599	5914614		
+148			Custo unitário total de transporte						
+149					Custo unitário direto total				8609.02
+150	Obs.								
+151									
+152	SISTEMA DE CUSTOS REFERENCIAIS DE OBRAS - SICRO			Goiás			FIC	0.0339	
+153	Custo Unitário de Referência			Julho/2026			Produção da equipe 	1.6	un
+154	0308310	Aparelho de apoio metálico elastomérico fixo com capacidade de 4.000 kN - fornecimento e instalação						Valores em reais (R$)	
+155	A - EQUIPAMENTOS		Quantidade	Utilização		Custo Horário			Custo
+156				Operativa	Improdutiva	Produtivo	Improdutivo		Horário Total
+157	E9050	Guindaste móvel compacto com plataforma integrada sobre pneus com 2 eixos com capacidade de 18 t - 97 kW	0.38554	1	0	422.3035	219.3536		162.8149
+158							Custo horário total de equipamentos		162.8149
+159	B - MÃO DE OBRA		Quantidade	Unidade		Custo Horário	Custo Horário Total		
+160	P9801	Ajudante	4	h		25.2949			101.1796
+161	P9830	Montador	1	h		36.2153			36.2153
+162			Custo horário total de mão de obra						137.3949
+163			Custo horário total de execução						300.2098
+164			Custo unitário de execução						187.6311
+165							Custo do FIC		4.7029
+166	C - MATERIAL		Quantidade	Unidade		Preço Unitário	Custo Unitário		
+167	M2760	Aparelho de apoio metálico elastomérico fixo com 4 chumbadores e capacidade de 4.000 kN	1	un		10482.634			10482.634
+168			Custo unitário total de material						10482.634
+169	D - ATIVIDADES AUXILIARES		Quantidade	Unidade		Custo Unitário	Custo Unitário		
+170	1108059	Microconcreto para reparos e grauteamento - confecção em misturador e lançamento manual	0.03152	m³		3285.33			103.5536
+171			Custo total de atividades auxiliares						103.5536
+172							Subtotal		10778.5216
+173	E - TEMPO FIXO		Código	Quantidade	Unidade		Custo Unitário	Custo Unitário	
+174	M2760	Aparelho de apoio metálico elastomérico fixo com 4 chumbadores e capacidade de 4.000 kN - Guindauto 6,2 t	5915373	0.092	t		21.06		1.9375
+175			Custo unitário total de tempo fixo						1.9375
+176	F - MOMENTO DE TRANSPORTE		Quantidade	Unidade	DMT			FIT	Custo Unitário
+177					LN	RP	P		
+178	M2760	Aparelho de apoio metálico elastomérico fixo com 4 chumbadores e capacidade de 4.000 kN - Guindauto 6,2 t	0.092	tkm	5914584	5914599	5914614		
+179			Custo unitário total de transporte						
+180					Custo unitário direto total				10780.46
+181	Obs.								
+182									
+183	SISTEMA DE CUSTOS REFERENCIAIS DE OBRAS - SICRO			Goiás			FIC	0.0339	
+184	Custo Unitário de Referência			Julho/2026			Produção da equipe 	1.45	un
+185	0308311	Aparelho de apoio metálico elastomérico fixo com capacidade de 5.500 kN - fornecimento e instalação						Valores em reais (R$)	
+186	A - EQUIPAMENTOS		Quantidade	Utilização		Custo Horário			Custo
+187				Operativa	Improdutiva	Produtivo	Improdutivo		Horário Total
+188	E9050	Guindaste móvel compacto com plataforma integrada sobre pneus com 2 eixos com capacidade de 18 t - 97 kW	0.3494	1	0	422.3035	219.3536		147.5528
+189							Custo horário total de equipamentos		147.5528
+190	B - MÃO DE OBRA		Quantidade	Unidade		Custo Horário	Custo Horário Total		
+191	P9801	Ajudante	4	h		25.2949			101.1796
+192	P9830	Montador	1	h		36.2153			36.2153
+193			Custo horário total de mão de obra						137.3949
+194			Custo horário total de execução						284.9477
+195			Custo unitário de execução						196.5157
+196							Custo do FIC		5.004
+197	C - MATERIAL		Quantidade	Unidade		Preço Unitário	Custo Unitário		
+198	M2761	Aparelho de apoio metálico elastomérico fixo com 4 chumbadores e capacidade de 5.500 kN	1	un		15286.1605			15286.1605
+199			Custo unitário total de material						15286.1605
+200	D - ATIVIDADES AUXILIARES		Quantidade	Unidade		Custo Unitário	Custo Unitário		
+201	1108059	Microconcreto para reparos e grauteamento - confecção em misturador e lançamento manual	0.036	m³		3285.33			118.2719
+202			Custo total de atividades auxiliares						118.2719
+203							Subtotal		15605.9521
+204	E - TEMPO FIXO		Código	Quantidade	Unidade		Custo Unitário	Custo Unitário	
+205	M2761	Aparelho de apoio metálico elastomérico fixo com 4 chumbadores e capacidade de 5.500 kN - Guindauto 6,2 t	5915373	0.132	t		21.06		2.7799
+206			Custo unitário total de tempo fixo						2.7799
+207	F - MOMENTO DE TRANSPORTE		Quantidade	Unidade	DMT			FIT	Custo Unitário
+208					LN	RP	P		
+209	M2761	Aparelho de apoio metálico elastomérico fixo com 4 chumbadores e capacidade de 5.500 kN - Guindauto 6,2 t	0.132	tkm	5914584	5914599	5914614		
+210			Custo unitário total de transporte						
+211					Custo unitário direto total				15608.73
+212	Obs.								
+213									
+214	SISTEMA DE CUSTOS REFERENCIAIS DE OBRAS - SICRO			Goiás			FIC	0.0339	
+215	Custo Unitário de Referência			Julho/2026			Produção da equipe 	1.25	un
+216	0308312	Aparelho de apoio metálico elastomérico fixo com capacidade de 7.500 kN - fornecimento e instalação						Valores em reais (R$)	
+217	A - EQUIPAMENTOS		Quantidade	Utilização		Custo Horário			Custo
+218				Operativa	Improdutiva	Produtivo	Improdutivo		Horário Total
+219	E9050	Guindaste móvel compacto com plataforma integrada sobre pneus com 2 eixos com capacidade de 18 t - 97 kW	0.3012	1	0	422.3035	219.3536		127.1978
+220							Custo horário total de equipamentos		127.1978
+221	B - MÃO DE OBRA		Quantidade	Unidade		Custo Horário	Custo Horário Total		
+222	P9801	Ajudante	4	h		25.2949			101.1796
+223	P9830	Montador	1	h		36.2153			36.2153
+224			Custo horário total de mão de obra						137.3949
+225			Custo horário total de execução						264.5927
+226			Custo unitário de execução						211.6742
+227							Custo do FIC		5.518
+228	C - MATERIAL		Quantidade	Unidade		Preço Unitário	Custo Unitário		
+229	M2762	Aparelho de apoio metálico elastomérico fixo com 4 chumbadores e capacidade de 7.500 kN	1	un		21572.3647			21572.3647
+230			Custo unitário total de material						21572.3647
+231	D - ATIVIDADES AUXILIARES		Quantidade	Unidade		Custo Unitário	Custo Unitário		
+232	1108059	Microconcreto para reparos e grauteamento - confecção em misturador e lançamento manual	0.04112	m³		3285.33			135.0928
+233			Custo total de atividades auxiliares						135.0928
+234							Subtotal		21924.6497
+235	E - TEMPO FIXO		Código	Quantidade	Unidade		Custo Unitário	Custo Unitário	
+236	M2762	Aparelho de apoio metálico elastomérico fixo com 4 chumbadores e capacidade de 7.500 kN - Guindauto 6,2 t	5915373	0.19	t		21.06		4.0014
+237			Custo unitário total de tempo fixo						4.0014
+238	F - MOMENTO DE TRANSPORTE		Quantidade	Unidade	DMT			FIT	Custo Unitário
+239					LN	RP	P		
+240	M2762	Aparelho de apoio metálico elastomérico fixo com 4 chumbadores e capacidade de 7.500 kN - Guindauto 6,2 t	0.19	tkm	5914584	5914599	5914614		
+241			Custo unitário total de transporte						
+242					Custo unitário direto total				21928.65
+243	Obs.								
+244									
+245	SISTEMA DE CUSTOS REFERENCIAIS DE OBRAS - SICRO			Goiás			FIC	0.0339	
+246	Custo Unitário de Referência			Julho/2026			Produção da equipe 	2.5	un
+247	0308307	Aparelho de apoio metálico elastomérico fixo com capacidade de 700 kN - fornecimento e instalação						Valores em reais (R$)	
+248	A - EQUIPAMENTOS		Quantidade	Utilização		Custo Horário			Custo
+249				Operativa	Improdutiva	Produtivo	Improdutivo		Horário Total
+250	E9050	Guindaste móvel compacto com plataforma integrada sobre pneus com 2 eixos com capacidade de 18 t - 97 kW	0.60241	1	0	422.3035	219.3536		254.3999
+251							Custo horário total de equipamentos		254.3999
+252	B - MÃO DE OBRA		Quantidade	Unidade		Custo Horário	Custo Horário Total		
+253	P9801	Ajudante	4	h		25.2949			101.1796
+254	P9830	Montador	1	h		36.2153			36.2153
+255			Custo horário total de mão de obra						137.3949
+256			Custo horário total de execução						391.7948
+257			Custo unitário de execução						156.7179
+258							Custo do FIC		3.6549
+259	C - MATERIAL		Quantidade	Unidade		Preço Unitário	Custo Unitário		
